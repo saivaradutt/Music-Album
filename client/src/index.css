@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(191,32,45,0.5);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar-light .navbar-brand{
+    color:rgb(230,0,0);
+}
+.form-control{
+    border: 1px solid rgb(230,0,0);
+}
+.form-control:focus {
+    border-color: rgb(230,0,0);
+    box-shadow: 0 0 0 0.2rem rgba(250,0,0,0.5);
+}
+.custom-class{
+    color:#fff;
+}
+table{
+    margin-top:20px;
+}
+table label{
+    color: darkred;
+}
+.custom-img-thumbnail{
+    border-radius: 38px;
+    width: 75px;
+    height: 75px;
+}
+.pageTitle{
+    margin-top:122px;
+    color:#fff;
+    text-align: center;
+}
+.home-page-title{
+    margin-top: 20%;
+    color: bisque;
+}
+.nav-search-box{
+    margin-top:50px;
+}
+.no-background{
+    background-color: transparent;
+}
+.tableHeadingCenter{
+    text-align: center;
+}
+.subHeading{
+    color: burlywood;
+    text-align: center;
+}
